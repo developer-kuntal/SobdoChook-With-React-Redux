@@ -1,0 +1,70 @@
+
+.item3 {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid gray;
+}
+
+
+.sideLine3 {
+    display: grid;
+    height: 35px;
+    width: 38px;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 30px 8px;
+}
+
+.inputBox3{
+    grid-row: 1/-1;
+    grid-column: 1/2;
+    font-size: 18px;
+    font-weight: bold;
+    height: 36px;
+    width: 36px;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    /* border: 1px solid seagreen; */
+    /* background-color: rgb(224, 192, 143); */
+}
+
+.disable-inputBox3 {
+    grid-row: 1/-1;
+    grid-column: 1/2;
+    font-size: 8px;
+    font-weight: bold;
+    height: 36px;
+    width: 36px;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    background-color: rgb(44, 43, 43);
+}
+
+.box-inputBox3 {
+    grid-row: 1/-1;
+    grid-column: 1/2;
+    font-size: 18px;
+    font-weight: bold;
+    height: 36px;
+    width: 36px;
+    padding: 0;
+    margin: 0;
+    /* border: 1.5px solid seagreen; */
+    border: 1px solid rgb(250, 141, 16);
+    outline: none;
+    /* background-color: rgb(224, 192, 143); */
+}
+
+/* .numbering-inputBox {
+    grid-row: 1/-1;
+    grid-column: 1/2;
+    font-size: 18px;
+    font-weight: bold;
+    height: 25px;
+    width: 25px;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(224, 192, 143);
+    border: 1px solid seagreen;
+    outline: none;
+} */

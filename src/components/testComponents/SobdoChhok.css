@@ -1,0 +1,110 @@
+.SobdoChhok {
+    display: grid;
+    /* align-items: center; */
+    margin: 10px auto;
+    justify-content: center;
+    height: 600px;
+    width: 600px;
+    grid-template-columns: repeat(15, 40px);
+    grid-template-rows: repeat(15, 40px);
+    border: 2px solid black;
+}
+
+.item1 {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid gray;
+}
+
+
+.sideLine {
+    display: grid;
+    height: 35px;
+    width: 38px;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 30px 8px;
+}
+
+.inputBox{
+    grid-row: 1/-1;
+    grid-column: 1/2;
+    font-size: 8px;
+    font-weight: bold;
+    height: 25px;
+    width: 25px;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    /* border: 1px solid seagreen; */
+}
+
+.dm-item1 {
+    text-align: center;
+    /* grid-row: 3/-1; */
+    grid-column: 2/3;
+    font-size: 10px;
+    font-weight: bold;
+    background: rgb(11, 77, 36);
+    /* border: 1px solid green; */
+}
+
+.dm-item2 {
+    text-align: center;
+    /* grid-row: 2/1; */
+    grid-column: 2/3;
+    font-size: 10px;
+    font-weight: bold;
+    background:teal;
+    /* border: 1px solid green; */
+}
+
+.dm-item3 {
+    text-align: center;
+    /* grid-row: 2/1; */
+    grid-column: 2/3;
+    font-size: 10px;
+    font-weight: bold;
+    background: rgb(105, 109, 96);
+    /* background: blueviolet; */
+    /* border: 1px solid green; */
+}
+
+/* .checkBox{
+
+} */
+
+input[type="checkbox"].checkBox {
+    /* display: none; */
+    opacity: 0;
+    position: absolute;
+    left: -9000px;
+    top: -9000px;
+}
+
+input[type="checkbox"].checkBox:checked + label {
+    display: flex;
+}
+
+input[type="checkbox"].checkBox:checked + label::before {
+    content: "";
+    border-radius: 4px;
+    width: 10px;
+    height: 10px;
+    margin-right: 1px;
+    /* outline: none; */
+    /* background-color: blueviolet; */
+}
+
+input[type="checkbox"].checkBox:checked + label::after {
+    content: "";
+    /* border-radius: 4px; */
+    /* width: 10px;
+    height: 10px;
+    margin-right: 1px; */
+    /* outline: none; */
+    /* background-color: red; */
+}
+
+input[type="checkbox"].checkBox:checked + label {
+    color:tomato;
+    /*  */
+}

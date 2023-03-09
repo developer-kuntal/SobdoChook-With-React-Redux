@@ -1,0 +1,11 @@
+.DrawSobdoChhokSomadhan {
+    display: grid;
+    /* align-items: center; */
+    margin: 10px auto;
+    justify-content: center;
+    height: 602.5px;
+    width: 602px;
+    grid-template-columns: repeat(15, 40px);
+    grid-template-rows: repeat(15, 40px);
+    border: 2px solid black;
+}

@@ -1,0 +1,52 @@
+.sobdochhok-usqa {
+    display: grid;
+    /* align-items: center; */
+    margin: 50px auto;
+    justify-content: center;
+    /* height: 602.5px;
+    width: 602px; */
+    grid-template-columns: auto 635px auto;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    border: 2px solid black;
+}
+
+.side-by-side {
+    grid-row: 1/-1;
+    grid-column: 1/2;
+    font-size: 18px;
+    font-weight: bold;
+    /* height: 36px;
+    width: 36px; */
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+.list{
+    /* position: relative; */
+    display: flex;
+}
+
+.sobdochhok-fill-up {
+    grid-row: 1/-1;
+    grid-column: 2/3;
+    font-size: 18px;
+    font-weight: bold;
+    /* height: 36px;
+    width: 36px; */
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+.up-and-down{
+    grid-row: 1/-1;
+    grid-column: 3/4;
+    font-size: 18px;
+    font-weight: bold;
+    /* height: 36px;
+    width: 36px; */
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
